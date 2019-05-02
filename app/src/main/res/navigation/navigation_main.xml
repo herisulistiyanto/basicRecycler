@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@id/navOld"
+            android:id="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/navOld"
+        android:name="com.andro.indie.school.ui.main.fragments.old.OldFragment"
+        android:label="Old"
+        tools:layout="@layout/fragment_old"/>
+
+</navigation>

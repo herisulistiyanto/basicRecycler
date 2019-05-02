@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navOld"
+            android:title="Old"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:enabled="true"/>
+
+    <item
+            android:id="@+id/navMidterm"
+            android:title="Mid"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:enabled="true"/>
+
+    <item
+            android:id="@+id/navLatest"
+            android:title="Latest"
+            android:icon="@android:drawable/ic_menu_view"
+            android:enabled="true"/>
+
+</menu>
